@@ -111,5 +111,5 @@ def writeLicensePlateCharsOnImage(imgOriginalScene, licPlate):
 if __name__ == "__main__":
     dir_path = os.path.dirname(os.path.realpath(__file__))
 
-    main(dir_path + '/Test_images/new.jpg')
+    main(dir_path + '/Test_images/new.jpg')         #define path and name of the file with correct extension
     main(dir_path + '/Test_images/car.jpg')
